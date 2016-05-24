@@ -1,0 +1,14 @@
+
+HELLO EVERYBODY, THIS IS MHACKERS PORT SCANNER. IT'S BASIC WITH JUST SCAN NO OS FINGERPRINTING OR SOME OTHER STUFF
+
+TO USE IT YOU NEED TO SET THE ARGUMENTS, SO THE ARGUMENTS ARE:
+
+-t --target [ex. pythonprogramming.net] - REQUIRED
+-ps --port_start [ex. 10] - DEFAULT: 1
+-pe --port_end [ex. 500] - DEFAULT: 65535
+
+SO FOR EXAMPLE:
+
+python mhps.py -t pythonprogramming.net -ps 10 -pe 500
+
+THIS LINE WILL SCAN pythonprogramming.net AND DISCOVER THAT PORST 20, 80, 443 ARE OPEN!!
